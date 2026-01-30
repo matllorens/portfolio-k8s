@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: portfolio-frontend:latest
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/matllorens/portfolio-frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           livenessProbe:
