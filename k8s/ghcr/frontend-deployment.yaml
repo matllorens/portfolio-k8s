@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/matllorens/portfolio-frontend:1bf4f96d42716daa7b666ca09aa5e546ddc86f1e
+          image: ghcr.io/matllorens/portfolio-frontend:a620b0bebbed1505e66cd6088a7ec12037f391af
           imagePullPolicy: Always
           ports:
             - containerPort: 80
