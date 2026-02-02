@@ -37,3 +37,8 @@ spec:
             limits:
               cpu: "200m"
               memory: "256Mi"
+          envFrom:
+            - configMapRef:
+                name: backend-config
+            - secretRef:
+                name: backend-secret
